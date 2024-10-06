@@ -53,7 +53,7 @@ ${sed} s/^com_port=.*/com_port=\'\'/ "${settings}"
 ${sed} s/^com_port_settings=.*/com_port_settings=\'115200:8:n:1\'/ "${settings}"
 ${sed} s/^receiver=.*/receiver=\'${recvfullname}\'/ "${settings}"
 ${sed} s/^receiver_format=.*/receiver_format=\'rtcm3\'/ "${settings}"
-${sed} s/^antenna_info=.*/antenna_info=\'ELT0123\'/ "${settings}"
+${sed} s/^antenna_info=.*/antenna_info=\'ADVNULLANTENNA\'/ "${settings}"
 
 ${sed} s/^svr_addr_a=.*/svr_addr_a=\'servers.onocoy.com\'/ "${settings}"
 ${sed} s/^svr_addr_b=.*/svr_addr_b=\'ntrip.rtkdirect.com\'/ "${settings}"
